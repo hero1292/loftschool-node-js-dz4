@@ -1,0 +1,98 @@
+{
+  "users": [
+    {
+      "id": "_NB9AHCF5FF0ULQE8FDY8B2S0E5UJUSY4",
+      "email": "test@mail.ru",
+      "password": "$2a$08$qHMlWE8UE.veJ2Ha8y.whOWlkgwDJxYYX85MzPQF.AoZ3t4fB.B92"
+    },
+    {
+      "id": "_UWW6P2PK0TT5H0NIL0N8OS5L066OL3UY",
+      "email": "test@mail.ru",
+      "password": "$2a$08$cE381DqQPff.TkcQeUCZeu57VP/wbznYG0RL79TqL9TWjEqQa1SRO"
+    },
+    {
+      "id": "_M1PO1VRQAIE91VCJQATUQUWURVF4B8MI",
+      "email": "test@mail.ru",
+      "password": "$2a$08$woyMAcue6HcuDS05hwQk1OdRqbQ9NULe3y5pxbl.IFnhTyH7zCdxC"
+    },
+    {
+      "id": "_N44BLO0LG100A8QN9WJSH0K5V9JLNC4R",
+      "email": "test@mail.ru",
+      "password": "$2a$08$DcweBnPs.k8/G5ALOlj.o./4lTeoyl/rxqCjtgjphYKlihXlE0nyC"
+    }
+  ],
+  "skills": [
+    {
+      "name": "age",
+      "value": 23,
+      "description": "Возраст начала занятий на скрипке"
+    },
+    {
+      "name": "concerts",
+      "value": 44,
+      "description": "Концертов отыграл"
+    },
+    {
+      "name": "cities",
+      "value": 66,
+      "description": "Максимальное число городов в туре"
+    },
+    {
+      "name": "year",
+      "value": 0,
+      "description": "Лет на сцене в качестве скрипача"
+    }
+  ],
+  "products": [
+    {
+      "src": "./assets/img/products/Work1.jpg",
+      "name": "Вино вдохновение",
+      "price": 600
+    },
+    {
+      "src": "./assets/img/products/Work2.jpg",
+      "name": "Вино вдохновение",
+      "price": 600
+    },
+    {
+      "src": "./assets/img/products/Work3.jpg",
+      "name": "Вино вдохновение",
+      "price": 600
+    },
+    {
+      "src": "./assets/img/products/Work4.jpg",
+      "name": "Вино вдохновение",
+      "price": 600
+    },
+    {
+      "src": "./assets/img/products/Work5.jpg",
+      "name": "Вино вдохновение",
+      "price": 600
+    },
+    {
+      "src": "./assets/img/products/Work6.jpg",
+      "name": "Вино вдохновение",
+      "price": 600
+    },
+    {
+      "src": "./assets/img/products/Work7.jpg",
+      "name": "Вино вдохновение",
+      "price": 600
+    },
+    {
+      "src": "./assets/img/products/Work8.jpg",
+      "name": "Вино вдохновение",
+      "price": 600
+    },
+    {
+      "src": "./assets/img/products/Work9.jpg",
+      "name": "Вино вдохновение",
+      "price": 600
+    },
+    {
+      "src": "./assets/img/products/1543086087009_default_avatar.png",
+      "name": "test",
+      "price": 280
+    }
+  ]
+}
