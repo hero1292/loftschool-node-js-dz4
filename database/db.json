@@ -1,40 +1,25 @@
 {
   "users": [
     {
-      "id": "_NB9AHCF5FF0ULQE8FDY8B2S0E5UJUSY4",
+      "id": "_KCFCMS207IM6JXSKK8XSQ74404I2CX7L",
       "email": "test@mail.ru",
-      "password": "$2a$08$qHMlWE8UE.veJ2Ha8y.whOWlkgwDJxYYX85MzPQF.AoZ3t4fB.B92"
-    },
-    {
-      "id": "_UWW6P2PK0TT5H0NIL0N8OS5L066OL3UY",
-      "email": "test@mail.ru",
-      "password": "$2a$08$cE381DqQPff.TkcQeUCZeu57VP/wbznYG0RL79TqL9TWjEqQa1SRO"
-    },
-    {
-      "id": "_M1PO1VRQAIE91VCJQATUQUWURVF4B8MI",
-      "email": "test@mail.ru",
-      "password": "$2a$08$woyMAcue6HcuDS05hwQk1OdRqbQ9NULe3y5pxbl.IFnhTyH7zCdxC"
-    },
-    {
-      "id": "_N44BLO0LG100A8QN9WJSH0K5V9JLNC4R",
-      "email": "test@mail.ru",
-      "password": "$2a$08$DcweBnPs.k8/G5ALOlj.o./4lTeoyl/rxqCjtgjphYKlihXlE0nyC"
+      "password": "$2a$08$DSMgxZMBxTCto6OzlwNl/ubut9HdN.Zoh.uyxcLt6oUw70dYF0gCm"
     }
   ],
   "skills": [
     {
       "name": "age",
-      "value": 23,
+      "value": 1,
       "description": "Возраст начала занятий на скрипке"
     },
     {
       "name": "concerts",
-      "value": 44,
+      "value": 1,
       "description": "Концертов отыграл"
     },
     {
       "name": "cities",
-      "value": 66,
+      "value": 1,
       "description": "Максимальное число городов в туре"
     },
     {
@@ -88,11 +73,7 @@
       "src": "./assets/img/products/Work9.jpg",
       "name": "Вино вдохновение",
       "price": 600
-    },
-    {
-      "src": "./assets/img/products/1543086087009_default_avatar.png",
-      "name": "test",
-      "price": 280
+    }
     }
   ]
 }
