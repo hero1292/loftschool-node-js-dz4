@@ -47,7 +47,7 @@ onerror(app);
 app.on('error', (err, ctx) => {
   ctx.render('error', {
     status: ctx.response.status,
-    error: ctx.response.message,
+    error: ctx.response.message
   });
 });
 

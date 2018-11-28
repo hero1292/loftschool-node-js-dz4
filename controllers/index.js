@@ -35,6 +35,6 @@ exports.SendEmail = async (ctx) => {
     console.log('Message sent: %s', info.messageId);
   });
 
-  ctx.flash = {message_status: 'Message successfully sended!'};
+  ctx.flash = { message_status: 'Message successfully sended!' };
   await ctx.redirect('/#feedback-form');
 };

@@ -34,7 +34,7 @@ exports.Register = async (ctx) => {
     config.secret,
     { expiresIn: config.tokenLife }
   );
-  ctx.body = {auth: true, token: token};
+  ctx.body = { auth: true, token: token };
   return ctx;
 };
 
@@ -43,10 +43,10 @@ exports.Login = async (ctx) => {
     .find({ email: ctx.request.body.email })
     .value();
 
-  if (!user) { ctx.send('User is not found!'); }
+  if (!user) { ctx.render('User is not found!'); }
 
   const passwordIsValid = bcrypt.compareSync(ctx.request.body.password, user.password);
-  if (!passwordIsValid) { return ctx.send('Incorrect password!'); }
+  if (!passwordIsValid) { return ctx.render('Incorrect password!'); }
 
   const token = jwt.sign(
     { id: user.id },
@@ -54,6 +54,6 @@ exports.Login = async (ctx) => {
     { expiresIn: config.tokenLife }
   );
 
-  ctx.body = {auth: true, token: token};
+  ctx.body = { auth: true, token: token };
   return ctx;
 };
